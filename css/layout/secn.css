@@ -1,0 +1,11 @@
+section{
+    padding: 5rem 0;
+}
+
+@media (max-width:767px){
+    section{
+        border: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

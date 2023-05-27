@@ -1,0 +1,48 @@
+/* Call for action */
+.cta-btn{
+    display: inline-block;
+    position: relative;
+    padding: 0.8rem;
+    font-weight: bold;
+    line-height: 1;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+
+.cta-btn::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
+}
+
+/* Mee style */
+/* .cta-btn--hero{
+
+} */
+
+
+/* .cta-btn--hero::after{
+
+} */
+
+
+/* Resume */
+/* .cta-btn--resume{
+
+} */
+
+/* .cta-btn--resume::after{
+
+} */
+
+
+/* Arrow btn */
+.up i{
+    color: #272727;
+}

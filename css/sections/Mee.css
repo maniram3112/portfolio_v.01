@@ -1,0 +1,59 @@
+#Mee{
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    background: var(--white-color);
+    font-weight: 400;
+    color: var(--dark-blue-text);
+    padding: 0rem 5.6rem;
+    margin: 0 0 0 0;
+    z-index: -1;
+    position: sticky;
+    /* background: url(/assets/profile.jpg);
+    background-size: cover; */
+}
+
+@media (max-width: phone) {
+    #Mee{
+        padding: 0rem var(--default-font-size);
+    }
+}
+
+#Mee .Mee-title{
+    font-size: 5.6rem;
+    font-weight:  700;
+    margin-bottom: 3.2rem;
+    text-align: left;
+}
+
+@media (max-width: tab-land){
+    #Mee .Mee-title{
+        font-size: 4rem;
+    }
+}
+
+@media(max-width: tab-port){
+    #Mee .Mee-title{
+        font-size: 3.6rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: phone){
+    #Mee .Mee-title{
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+}
+
+#Mee .Mee-cta{
+    display: flex;
+}
+
+@media (max-width:phone) {
+    #Mee .Mee-cta a{
+        font-size: 2rem;
+    }
+}

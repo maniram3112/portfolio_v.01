@@ -1,0 +1,44 @@
+/* Media Queries */
+/* 0 t- 600px: Phone */
+@media (max-width: 37.5em){
+    /* Phn style */
+}
+
+/* 600px to 900px: Table portrait */
+@media (max-width: 56.25){
+    /* Tablet style */
+}
+
+/* 900px to 1200px Tablet Landscape */
+@media (max-width: 75em){
+    /* Lanscape */
+}
+
+/* 1200px to 1800 Normal Desktop */
+@media (min--width:112.5em){
+    /* Normal */
+}
+
+/* 1800px+ Big Desktop */
+@media (min-width:1800px){
+    /* Big */
+}
+
+/* Border White Mixin */
+.section-borders{
+    border: 1.5rem solid #fff;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+/* Support Color for IE11 Mixin */
+.supportColorForIE11{
+    color: var(--secondary-color);
+    -webkit-text-fill-color: var(--secondary-color);
+}
+
+/* Support IE11 Mixin */
+@media screen and(-ms-high-contrast: active),
+    screen and (-ms-high-contrast: none){
+        /* IE11 styles */
+    }
