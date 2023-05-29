@@ -30,12 +30,20 @@ a:hover{
 }
 
 .text-color-main{
-    @media only screen and(max-width: 768px) {
         background-image: none;
-        text-fill-color: var(--secondary-color);
-    }
+        color: var(--secondary-color);
+}
 
-    &:hover{
-        transform: translateX(2px);
+.text-color-main:hover{
+    transform: translateX(2px);
+}
+
+@media only screen and (max-width: 768px) {
+    .text-color-main{
+        background-image: none;
+        -webkit-text-fill-color: var(--secondary-color);
+        -moz-text-fill-color: var(--secondary-color);
+        -ms-text-fill-color: var(--secondary-color);
+        color: var(--secondary-color);
     }
 }

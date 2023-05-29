@@ -17,11 +17,13 @@
 }
 
 .about-wrapper{
-    @media only screen and (max-width: 480px){
-        .about-wrapper{
             padding-bottom: 5rem;
-        }
-    }   
+}
+
+@media only screen and (max-width: 480px){
+    .about-wrapper{
+        padding-bottom: 5rem;
+    }
 }
 
 .about-wrapper__image{

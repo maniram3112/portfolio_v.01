@@ -15,7 +15,7 @@
     background-size: cover; */
 }
 
-@media (max-width: phone) {
+@media (max-width: 480px) {
     #Mee{
         padding: 0rem var(--default-font-size);
     }
@@ -28,20 +28,20 @@
     text-align: left;
 }
 
-@media (max-width: tab-land){
+@media (max-width: 1024px){
     #Mee .Mee-title{
         font-size: 4rem;
     }
 }
 
-@media(max-width: tab-port){
+@media(max-width: 368px){
     #Mee .Mee-title{
         font-size: 3.6rem;
         text-align: center;
     }
 }
 
-@media (max-width: phone){
+@media (max-width: 480px){
     #Mee .Mee-title{
         font-size: 3.5rem;
         line-height: 1.5;
@@ -52,7 +52,7 @@
     display: flex;
 }
 
-@media (max-width:phone) {
+@media (max-width:480px) {
     #Mee .Mee-cta a{
         font-size: 2rem;
     }
