@@ -25,7 +25,7 @@
     font-size: 5.6rem;
     font-weight:  700;
     margin-bottom: 3.2rem;
-    text-align: left;
+    text-align: center;
 }
 
 @media (max-width: 1024px){
@@ -50,6 +50,7 @@
 
 #Mee .Mee-cta{
     display: flex;
+    justify-content: center;
 }
 
 @media (max-width:480px) {
